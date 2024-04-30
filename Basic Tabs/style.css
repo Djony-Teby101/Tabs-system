@@ -1,0 +1,24 @@
+.tabs{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.tabs-button{
+    background-color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.tabs-button:hover{
+    background-color: #f4f4f4;
+}
+.tabs-content{
+    padding: 10px;
+    display: none;
+}
+
+.tabs-content.active{
+    display: block;
+}
